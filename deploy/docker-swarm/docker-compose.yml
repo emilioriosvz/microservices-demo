@@ -12,6 +12,7 @@ services:
       - external
       - secure
       - internal
+      - backoffice
   edge-router:
     image: weaveworksdemos/edge-router
     ports:
